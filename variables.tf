@@ -515,5 +515,11 @@ variable "repositories" {
       teams       = ["infrastructure"]
       topics      = ["mage-os", "magento", "ecommerce", "magento2", "adobecommerce"]
     }
+
+    test-repo-creation = {
+      description = "Test creation of new repo."
+      teams       = ["infrastructure"]
+      topics      = ["mage-os", "magento", "ecommerce", "magento2", "adobecommerce"]
+    }
   }
 }
