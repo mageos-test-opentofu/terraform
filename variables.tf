@@ -209,7 +209,9 @@ variable "teams" {
       name        = "async-events"
       description = "Team collaborating on the mageos-async-events repository."
       members = [
-        "davidtabat"
+        "davidtabat",
+        "gowrizrh",
+        "avstudnitz",
       ]
     }
 
@@ -217,7 +219,12 @@ variable "teams" {
       name        = "Content"
       description = "Content mergers"
       members = [
-        "davidtabat"
+        "davidtabat",
+        "johnhughes1984",
+        "wigman",
+        "Vinai",
+        "DavidLambauer",
+        "johnprendergast"
       ]
     }
 
@@ -233,7 +240,12 @@ variable "teams" {
       name        = "Distribution"
       description = "Distribution mergers"
       members = [
-        "davidtabat"
+        "davidtabat",
+        "Vinai",
+        "sprankhub",
+        "damienwebdev",
+        "rhoerr",
+        "fballiano",
       ]
     }
 
@@ -241,7 +253,14 @@ variable "teams" {
       name        = "Infrastructure"
       description = "Infrastructure mergers"
       members = [
-        "davidtabat"
+        "davidtabat",
+        "Vinai",
+        "sprankhub",
+        "damienwebdev",
+        "DavidLambauer",
+        "rhoerr",
+        "cmuench",
+        "fballiano",
       ]
     }
 
@@ -249,7 +268,8 @@ variable "teams" {
       name        = "Tech-lead"
       description = "Technical leaders"
       members = [
-        "davidtabat"
+        "davidtabat",
+        "Vinai",
       ]
     }
   }
