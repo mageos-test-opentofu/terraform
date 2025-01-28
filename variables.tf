@@ -219,7 +219,7 @@ variable "teams" {
       name        = "Content"
       description = "Content mergers"
       members = [
-        "davidtabat"
+        "davidtabat",
         "johnhughes1984",
         "wigman",
         "Vinai",
